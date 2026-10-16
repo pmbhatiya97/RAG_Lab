@@ -3,7 +3,7 @@ import Link from "next/link";
 const nodes=["DOCUMENTS","CHUNKS","VECTORS","SEARCH","CONTEXT","ANSWER"];
 
 export default function Welcome(){return <main className="welcome-page">
-  <nav className="welcome-nav"><Link href="/" className="welcome-brand"><span>R</span> RAGLAB</Link><div><Link href="/agentic">Agentic RAG</Link><Link href="/settings">Model settings</Link><Link href="/lab" className="nav-launch">Open lab →</Link></div></nav>
+  <nav className="welcome-nav"><Link href="/" className="welcome-brand"><span>R</span> RAGLAB</Link><div><Link href="/architecture">How RAG works</Link><Link href="/agentic">Agentic RAG</Link><Link href="/settings">Model settings</Link><Link href="/lab" className="nav-launch">Open lab →</Link></div></nav>
   <section className="hero-stage">
     <div className="orbit orbit-one"/><div className="orbit orbit-two"/><div className="glow glow-one"/><div className="glow glow-two"/>
     <div className="hero-copy"><span className="hero-kicker"><i/> THE VISUAL RAG WORKBENCH</span><h1 aria-label="RAGLAB"><span>R</span><span>A</span><span>G</span><em>LAB</em></h1><p>Watch your documents become answers—one decision, one vector, one citation at a time.</p><div className="hero-actions"><Link href="/lab">Enter the pipeline <b>→</b></Link><Link href="/settings" className="secondary">Configure models</Link></div><small>LOCAL-FIRST · PRIVATE KEYS · OLLAMA + NVIDIA + HUGGING FACE</small></div>
